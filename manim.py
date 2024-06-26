@@ -125,7 +125,7 @@ elif do == '2':
     user = input(Fore.CYAN + "List Of Facebook => " + Style.RESET_ALL)
     passfile = input(Fore.CYAN + "Path to Password File => " + Style.RESET_ALL)
 
-    instance = FacebookBruteForce()
+    instance = FacebookBruteForce(https://www.facebook.com/profile.php?id=100014769128511)
     instance.get_acc_list(user)
     instance.get_pass_list(passfile)
     instance.try_facebook()
